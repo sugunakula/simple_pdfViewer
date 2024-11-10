@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Resume PDF Viewer',
       theme: ThemeData(primarySwatch: Colors.blue),
+      debugShowCheckedModeBanner: false, // Hides the debug banner
+
       home: HomeScreen(),
     );
   }
